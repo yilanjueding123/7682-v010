@@ -1,0 +1,8 @@
+---- 2016 Matches (7 in 3 files) ----
+save_example_time_to_disk in ap_jh_message.c (F:\work\item\7582\v010\program\application\task_storage_service\src) : 	//gp_strcpy((INT8S*)addr, (INT8S *)"2016.01.01 00:00:00 ");
+FS_OS_GetDate in fs_os.c (F:\work\item\7582\v010\program\gplib\fs) : 		dd->year = 2016;
+gplib_calendar.c (F:\work\item\7582\v010\program\gplib\calendar\src) line 28 : #define JAN_01TH_2016        2457389
+gplib_calendar.c (F:\work\item\7582\v010\program\gplib\calendar\src) line 29 : INT32U LAST_JULIAN_DATE = JAN_01TH_2016;
+cal_time_get in gplib_calendar.c (F:\work\item\7582\v010\program\gplib\calendar\src) :     	   tm->tm_year = 2016;//2008;
+cal_time_get in gplib_calendar.c (F:\work\item\7582\v010\program\gplib\calendar\src) : 		y = 2016;
+cal_day_get in gplib_calendar.c (F:\work\item\7582\v010\program\gplib\calendar\src) : 		LAST_JULIAN_DATE = JAN_01TH_2016;
